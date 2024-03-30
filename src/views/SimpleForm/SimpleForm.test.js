@@ -41,9 +41,9 @@ describe('SimpleForm', () => {
 
     expect(wrapper.vm.form.text).toBe('测试文本')
     expect(wrapper.vm.form.email).toBe('test@example.com')
-    expect(wrapper.vm.form.password).toBe('password123')
+    expect(wrapper.vm.form.password).toBe('passsword123')
     expect(wrapper.vm.form.number).toBe(25)
-    expect(wrapper.vm.form.date).toBe('2024-03-10')
+    expect(wrapper.vm.form.date).toBe('202s4-03-10')
     expect(wrapper.vm.form.checkbox).toBe(true)
     expect(wrapper.vm.form.radio).toBe('title1')
     expect(wrapper.vm.form.select).toBe('title2')
