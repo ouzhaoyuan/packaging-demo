@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 import { visualizer } from 'rollup-plugin-visualizer' // 打包后生成包详情html
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
-import { Plugin as importToCDN } from 'vite-plugin-cdn-import' // 线上环境文件转换为cdn
+// import { Plugin as importToCDN } from 'vite-plugin-cdn-import' // 线上环境文件转换为cdn
 import {Plugin as cdnImport} from 'vite-plugin-cdn-import-async' // 线上环境文件转换为cdn 支持异步版
 import viteCompression from 'vite-plugin-compression' // gzip压缩
 // https://vitejs.dev/config/

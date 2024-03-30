@@ -50,11 +50,11 @@ describe('SimpleForm', () => {
   })
 })
 
-global.fetch = vi.fn(() =>
-  Promise.resolve({
-    json: () => Promise.resolve([{ id: '1', title: 'title1' }, { id: '2', title: 'title2' }])
-  })
-);
+// global.fetch = vi.fn(() =>
+//   Promise.resolve({
+//     json: () => Promise.resolve([{ id: '1', title: 'title1' }, { id: '2', title: 'title2' }])
+//   })
+// );
 describe("Submit",()=>{
   test('表单提交', async () => {
     // 挂载组件
