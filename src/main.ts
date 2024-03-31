@@ -8,7 +8,7 @@ import 'element-plus/dist/index.css'
 import App from './App.vue'
 import router from './router'
 import { cloneDeep } from 'lodash-es'
-const obj = cloneDeesp({})
+// const obj = cloneDeep({})
 const { createApp } = Vue
 const app = createApp(App)
 
