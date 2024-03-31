@@ -44,6 +44,13 @@ jobs:
       - name: Running Test
         # 通过前面章节定义的命令行执行自动化测试
         run: yarn test:unit
+      - name: Read Version
+        # 读取出来的值会放在steps.[id].outputs.value供其他步骤step读取
+        id: version
+        uses: ashley-taylor/read-json-property-action@v1.0
+        with:
+          path: ./package.json
+          property: version
       - name: Building
         run: |
           yarn build
