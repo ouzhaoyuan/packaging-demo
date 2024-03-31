@@ -9,7 +9,12 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      Missing required inputs: `SSH_PRIVATE_KEY`, `REMOTE_HOST`, `REMOTE_USER`
+A name for your step to display on GitHub.
 
+Available expression contexts: github, inputs, vars, needs, strategy, matrix, secrets, steps, job, runner, env
+
+Available expression functions: hashFiles
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>

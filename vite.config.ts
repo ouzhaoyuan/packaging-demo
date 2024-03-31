@@ -24,9 +24,9 @@ export default defineConfig({
   plugins: [
     vue(),
     vueJsx(),
-    visualizer({
-      gzipSize: true
-    }),
+    // visualizer({
+    //   gzipSize: true
+    // }),
     viteCompression({}),
     cdnImport({
       modules: [
